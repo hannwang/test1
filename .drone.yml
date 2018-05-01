@@ -1,6 +1,6 @@
 pipeline:
   node:
-  image: gcc
-  commands:
-    - make
-    - ./test1
+    image: gcc:6.4
+    commands:
+      - make
+      - ./test1
